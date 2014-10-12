@@ -1,4 +1,4 @@
 ttyhlauncher-autoupdater
 ========================
 
-launcher autoupdater
+Autoupdater for linux ttyhlauncher version
