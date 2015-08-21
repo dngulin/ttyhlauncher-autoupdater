@@ -10,7 +10,7 @@ do_install() {
 	cd "${HOME}/.local/src/"
 
 	echo "Clone repository..."
-	git clone "https://github.com/figec/ttyhlauncher.git"
+	git clone "https://github.com/dngulin/ttyhlauncher.git"
 	cd "${HOME}/.local/src/ttyhlauncher"
 
 	echo "Building sources..."
