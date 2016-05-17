@@ -24,7 +24,6 @@ do_install() {
 post_install() {
 	echo "Execute post-intsall changes"
 	sed -i "s|Exec=ttyhlauncher|Exec=${HOME}/.local/bin/ttyhlauncher.sh start|" "${HOME}/.local/share/applications/ttyhlauncher.desktop"
-	echo "Terminal=true" >> "${HOME}/.local/share/applications/ttyhlauncher.desktop"
 	update-desktop-database
 	echo "Done!"
 }
